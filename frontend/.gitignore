@@ -20,7 +20,6 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
-tsconfig.node.json
 tsconfig.node.tsbuildinfo
 tsconfig.tsbuildinfo
 vite.config.d.ts
