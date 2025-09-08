@@ -62,9 +62,7 @@ const SearchIcon = styled(BiSearch)`
 `;
 
 // Empty div to balance the grid layout
-const RightPlaceholder = styled.div`
-  justify-self: end;
-`;
+
 
 const Header: React.FC = () => {
   const location = useLocation();

@@ -9,7 +9,6 @@ import {
   BiRightArrowAlt,
   BiCategory, // A more generic icon for genres
 } from "react-icons/bi";
-import { BsCollectionPlay } from "react-icons/bs";
 import { Loader, Button } from "../../ui"; // Assuming Loader and Button are available
 import RootState from "../../redux/RootState";
 import { fetchStatisticsStart } from "../../redux/slices/statisticsSlice";
