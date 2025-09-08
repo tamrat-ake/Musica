@@ -247,7 +247,7 @@ const SignUpPage: React.FC = () => {
           onClick={() => (window.location.href = `${API_BASE_URL}/auth/google`)}
         >
           <img src="/images/google_icon.png" alt="google" />
-          <span>continue With Google</span>
+          <span>Continue With Google</span>
         </Button>
 
         <LinkContainer>
