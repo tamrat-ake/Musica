@@ -1,12 +1,12 @@
 {
-  "name": "songify",
+  "name": "musica",
   "version": "1.0.0",
   "description": "Professional music playlist management API built with TypeScript, Express, and MongoDB",
-  "packageManager": "pnpm@10.9.0",
+  "packageManager": "npm@10.9.0",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "none -r tsconfig-paths/register dist/index.js",
+    "start": "node -r tsconfig-paths/register dist/index.js",
     "dev": "cross-env NODE_ENV=development ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --project tsconfig.json src/index.ts",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
