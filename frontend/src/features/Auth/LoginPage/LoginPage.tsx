@@ -156,15 +156,15 @@ const LoginPage: React.FC = () => {
           {loading ? "Signing In..." : "Sign In"}
         </Button>
 
-        <LinkContainer>or</LinkContainer>
+        {/* <LinkContainer>or</LinkContainer> */}
 
-        <Button
+        {/* <Button
           normal="normal"
           onClick={() => (window.location.href = `${API_BASE_URL}/auth/google`)}
         >
           <img src="/images/google_icon.png" alt="google" />
           <span>Continue With Google</span>
-        </Button>
+        </Button> */}
         <LinkContainer>
           Don't have an account?{" "}
           <StyledLink to="/auth/signup">Sign Up</StyledLink>
