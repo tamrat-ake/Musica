@@ -4,6 +4,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 import passport from "passport";
 import cors from "cors";
+import mongoSanitize from 'express-mongo-sanitize';
 import routes from "./routes";
 import initiatePassport from "./passport";
 import notFoundErrorHandler from "../errors/noFoundError";
@@ -19,6 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(helmet());
+app.use(mongoSanitize());
 app.use(morgan(MORGAN_FORMAT));
 
 const FRONTEND_URL = process.env.FRONTEND_URL;
