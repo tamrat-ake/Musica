@@ -28,4 +28,8 @@ export const responseMessages = {
   statisticsApi: {
     fetchSuccess: "Statistics fetched successfully.",
   },
+
+  limitterMessage:{
+    tooManyRequests: "Too many requests. Please try again later.",
+  }
 };
